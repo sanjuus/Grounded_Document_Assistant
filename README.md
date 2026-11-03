@@ -120,11 +120,20 @@ Grounded-Document-Assistant/
 │
 ├── app.py
 ├── rag_pipeline.py
+├── Grounded_Document_Assistant.ipynb
 ├── evaluation_dataset.py
 ├── evaluation_retrieval.py
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
+│
+├── screenshots/
+│   ├── 01_home_page.png
+│   ├── 02_document_processing.png
+│   ├── 03_direct_question_answer.png
+│   ├── 04_indirect_question_answer.png
+│   ├── 05_no_evidence_response.png
+│   └── 06_multiple_pdf_documents.png
 │
 └── data/
     └── README.md
@@ -135,8 +144,8 @@ Grounded-Document-Assistant/
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd Grounded-Document-Assistant
+git clone https://github.com/sanjuus/Grounded_Document_Assistant.git
+cd Grounded_Document_Assistant
 ```
 
 ### 2. Create a Virtual Environment
